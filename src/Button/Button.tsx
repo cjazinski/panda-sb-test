@@ -22,12 +22,12 @@ const Button: React.FC<ButtonProps> = ({ children, variant, ...props }) => {
       </button>
       <div
         className={css({
-          bg: 'red.300',
+          bg: 'red.500',
           fontFamily: 'Inter',
           px: '4',
           py: '3',
           borderRadius: 'md',
-          _hover: { bg: 'red.400' },
+          _hover: { bg: 'red.100' },
         })}
       >
         {children}
